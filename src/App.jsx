@@ -30,19 +30,19 @@ export default function App() {
 
       {/* Filter Bar */}
       <div className="sticky top-16 md:top-20 z-40 bg-white/95 backdrop-blur-md border-b border-navy-100 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-2 py-3 overflow-x-auto">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <div className="flex justify-start sm:justify-center items-center gap-3 overflow-x-auto pb-2 sm:pb-0 scroll-smooth" style={{ msOverflowStyle: 'none', scrollbarWidth: 'none' }}>
             {FILTERS.map((f) => (
               <button
                 key={f.key}
                 onClick={() => setActiveFilter(f.key)}
-                className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-all duration-200 font-body ${
+                className={`flex items-center gap-2.5 px-6 py-2.5 rounded-full text-sm font-semibold whitespace-nowrap transition-all duration-300 font-body shrink-0 ${
                   activeFilter === f.key
-                    ? "gold-gradient text-white shadow-md"
-                    : "bg-navy-50 text-navy-700 hover:bg-navy-100"
+                    ? "navy-gradient text-white shadow-lg transform scale-105"
+                    : "bg-navy-50 text-navy-700 hover:bg-navy-100 hover:shadow"
                 }`}
               >
-                <span>{f.icon}</span>
+                <span className="text-lg">{f.icon}</span>
                 <span>{f.label}</span>
               </button>
             ))}
@@ -56,7 +56,7 @@ export default function App() {
 
       {/* Floating WA button */}
       <a
-        href={`https://wa.me/${WA_NUMBER}?text=Halo%20Antigravity%20Property%2C%20saya%20ingin%20bertanya%20tentang%20properti%20yang%20tersedia.`}
+        href={`https://wa.me/${WA_NUMBER}?text=Halo%20Ummi%20Stay%2C%20saya%20ingin%20bertanya%20tentang%20properti%20yang%20tersedia.`}
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 flex items-center gap-3 pl-4 pr-5 py-3 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-2xl transition-all duration-200 hover:scale-105 font-body font-semibold text-sm"

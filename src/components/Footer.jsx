@@ -18,8 +18,8 @@ export default function Footer() {
                 </svg>
               </div>
               <div>
-                <div className="font-display font-bold text-lg leading-none">Antigravity</div>
-                <div className="text-gold-300 text-xs font-body tracking-widest uppercase">Property</div>
+                <div className="font-display font-bold text-lg leading-none">Ummi</div>
+                <div className="text-gold-300 text-xs font-body tracking-widest uppercase">Stay</div>
               </div>
             </div>
             <p className="text-white/60 text-sm font-body leading-relaxed mb-5">
@@ -27,7 +27,7 @@ export default function Footer() {
             </p>
             {/* WA CTA */}
             <a
-              href={`https://wa.me/${WA_NUMBER}?text=Halo%20Antigravity%20Property%2C%20saya%20ingin%20bertanya%20tentang%20properti%20yang%20tersedia.`}
+              href={`https://wa.me/${WA_NUMBER}?text=Halo%20Ummi%20Stay%2C%20saya%20ingin%20bertanya%20tentang%20properti%20yang%20tersedia.`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 gold-gradient rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity font-body shadow-md"
@@ -74,6 +74,13 @@ export default function Footer() {
             </ul>
 
             <div className="mt-6 pt-6 border-t border-white/10">
+              <h4 className="font-display text-sm font-bold mb-3 text-gold-300">Sosial Media</h4>
+              <ul className="space-y-2 font-body text-sm text-white/60 mb-6">
+                <li className="flex items-center gap-2">Instagram: @ummi.stay</li>
+                <li className="flex items-center gap-2">Facebook: Ummi Stayy</li>
+                <li className="flex items-center gap-2">TikTok: ummi.stay</li>
+              </ul>
+              
               <h4 className="font-display text-sm font-bold mb-3 text-gold-300">Kontak</h4>
               <a
                 href={`https://wa.me/${WA_NUMBER}`}
@@ -95,10 +102,10 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-white/40 text-xs font-body">
-            © {year} Antigravity Property. All rights reserved.
+            © {year} Ummi Stay. All rights reserved.
           </p>
           <p className="text-white/30 text-xs font-body">
-            Powered by Antigravity
+            Powered by Ummi Stay
           </p>
         </div>
       </div>

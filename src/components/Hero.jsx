@@ -74,7 +74,7 @@ export default function Hero() {
             🏠 Lihat Properti
           </a>
           <a
-            href={`https://wa.me/${WA_NUMBER}?text=Halo%20Antigravity%20Property%2C%20saya%20ingin%20bertanya%20tentang%20properti%20yang%20tersedia.`}
+            href={`https://wa.me/${WA_NUMBER}?text=Halo%20Ummi%20Stay%2C%20saya%20ingin%20bertanya%20tentang%20properti%20yang%20tersedia.`}
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 gold-gradient text-white font-semibold rounded-xl shadow-lg hover:opacity-90 transition-opacity font-body"

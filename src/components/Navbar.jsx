@@ -43,14 +43,14 @@ export default function Navbar() {
                   scrolled ? "text-navy-700" : "text-white"
                 }`}
               >
-                Antigravity
+                Ummi
               </span>
               <span
                 className={`text-xs font-body font-medium tracking-widest uppercase ${
                   scrolled ? "text-gold-500" : "text-gold-300"
                 }`}
               >
-                Property
+                Stay
               </span>
             </div>
           </a>
@@ -71,7 +71,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href={`https://wa.me/${WA_NUMBER}?text=Halo%20Antigravity%20Property%2C%20saya%20ingin%20bertanya%20tentang%20properti%20yang%20tersedia.`}
+              href={`https://wa.me/${WA_NUMBER}?text=Halo%20Ummi%20Stay%2C%20saya%20ingin%20bertanya%20tentang%20properti%20yang%20tersedia.`}
               target="_blank"
               rel="noopener noreferrer"
               className="ml-3 px-5 py-2 gold-gradient text-white text-sm font-semibold rounded-lg shadow-md hover:opacity-90 transition-opacity"
@@ -113,7 +113,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href={`https://wa.me/${WA_NUMBER}?text=Halo%20Antigravity%20Property%2C%20saya%20ingin%20bertanya%20tentang%20properti%20yang%20tersedia.`}
+              href={`https://wa.me/${WA_NUMBER}?text=Halo%20Ummi%20Stay%2C%20saya%20ingin%20bertanya%20tentang%20properti%20yang%20tersedia.`}
               target="_blank"
               rel="noopener noreferrer"
               className="block mt-2 px-4 py-3 gold-gradient text-white font-semibold rounded-lg text-center shadow-md"

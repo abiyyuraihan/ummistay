@@ -16,9 +16,9 @@
     background: linear-gradient(135deg, #C9A84C 0%, #F0C040 50%, #C9A84C 100%);
   }
   .navy-gradient {
-    background: linear-gradient(135deg, #0F2038 0%, #1E3A5F 50%, #2563EB 100%);
+    background: linear-gradient(135deg, #03045E 0%, #023E8A 50%, #0077B6 100%);
   }
   .card-shadow {
-    box-shadow: 0 4px 24px rgba(30, 58, 95, 0.12);
+    box-shadow: 0 4px 24px rgba(2, 62, 138, 0.12);
   }
 }

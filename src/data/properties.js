@@ -122,9 +122,9 @@ export const properties = [
   // ════════════════════════════════════════
 
   {
-    id: "ruko-bekasitimur",
+    id: "ruko-bekasitimur-1",
     type: "ruko",
-    name: "Ruko Duren Jaya Bekasi Timur",
+    name: "Ruko Duren Jaya Bekasi Timur (Unit 1)",
     location: "Duren Jaya, Bekasi Timur",
     description:
       "Ruko 1 lantai di lokasi strategis Bekasi Timur, cocok untuk berbagai jenis usaha. Akses jalan lebar, parkir luas, dan berada di area komersial yang ramai.",
@@ -135,7 +135,24 @@ export const properties = [
     images: [
       "/images/placeholder-ruko.jpg",
     ],
-    waMessage: "Halo Ummi, saya tertarik dengan *Ruko Duren Jaya Bekasi Timur* di Jl. Pahlawan Gang Ros. Apakah masih tersedia? Mohon info lebih lanjut 🙏",
+    waMessage: "Halo Ummi, saya tertarik dengan *Ruko Duren Jaya Bekasi Timur (Unit 1)*. Apakah masih tersedia? Mohon info lebih lanjut 🙏",
+  },
+
+  {
+    id: "ruko-bekasitimur-2",
+    type: "ruko",
+    name: "Ruko Duren Jaya Bekasi Timur (Unit 2)",
+    location: "Duren Jaya, Bekasi Timur",
+    description:
+      "Ruko 1 lantai di lokasi strategis Bekasi Timur, cocok untuk berbagai jenis usaha. Akses jalan lebar, parkir luas, dan berada di area komersial yang ramai.",
+    harga: 30000000,
+    periodeSewa: "tahun",
+    status: "tersedia",
+    fasilitas: ["1 Lantai", "Akses Jalan 1 Mobil", "Parkir Luas", "Toilet"],
+    images: [
+      "/images/placeholder-ruko.jpg",
+    ],
+    waMessage: "Halo Ummi, saya tertarik dengan *Ruko Duren Jaya Bekasi Timur (Unit 2)*. Apakah masih tersedia? Mohon info lebih lanjut 🙏",
   },
 
 ];
